@@ -28,14 +28,14 @@
 	<div id="contactform">
 		<h2>Contact Us</h2>
 		<p>We are always interested to hear your views on how we can improve this site.</p>
-		<form action="" method="post">
-		    Name:<br>
-		    <input type="text" name="name"><br>
-		    E-mail:<br>
-		    <input type="text" name="email"><br>
-		    Message:<br>
-		    <textarea name="message"></textarea><br>
-		    <input type="submit" value="Send">
+		<form name="contact" action="#" onsubmit="return validateForm()"  method="post">
+		    <span id="errorname"></span>Name:<br>
+		    <input type="text" name="name" placeholder="*Required"><br>
+		    <span id="erroremail"></span>E-mail:<br>
+		    <input type="text" name="email" placeholder="*Required"><br>
+		    <span id="errormessage"></span>Message:<br>
+		    <textarea name="message" placeholder="*Required"></textarea><br>
+		    <div id="button"><input type="submit" value="Submit"></div>
 		</form>
 	</div>
 

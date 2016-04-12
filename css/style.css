@@ -132,7 +132,7 @@ figure {
 #nav {
 	background-color: rgba(0, 0, 0, 0.5);
 	height: 100%;
-	margin-top: 50%;
+	margin-top: 150px;
 	text-align: center;
 }
 
@@ -148,13 +148,13 @@ figure {
        display: none;
     }
     #nav {
-      margin-top: 40%;
+      margin-top: 150px;
     }
 }
 
 @media screen and (min-width: 1024px) {
      #nav {
-      margin-top: 20%;
+      margin-top: 150px;
   }
   }  
 
@@ -291,19 +291,39 @@ figure {
   width: 80%;
   margin: 120px auto;
   text-align: center;
+  color: #bdbdbd;
 }
 
-#contactform input {
-  width: 60%;
+#contactform h2, p {
   margin-bottom: 20px;
+}
+
+#contactform input, textarea {
+  width: 60%;
+  height: 30px;
+  margin: 20px 0 20px;
 }
 
 #contactform textarea {
-  width: 60%;
-  margin-bottom: 20px;
+  height: 80px;
 }
 
-.formlabel {
-  margin-right: 80px; 
+#errorname {
+  color: red;
+  margin-right: 10px;
 }
 
+#erroremail {
+  color: red;
+  margin-right: 10px;
+}
+
+#errormessage {
+  color: red;
+  margin-right: 10px;
+}
+
+#button {
+  width: 20%;
+  margin: 0 auto;
+}

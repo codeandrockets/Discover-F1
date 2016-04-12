@@ -205,3 +205,38 @@ $(document).ready(function() {
 		}
 	});
 });
+
+
+//Contact Form
+
+function validateForm() {
+    
+    var name = document.forms["contact"]["name"].value;
+    if (name == null || name == "") {
+        document.getElementById("errorname").innerHTML = "Please Enter Your Name!";
+        
+    } else {
+        document.getElementById("errorname").innerHTML = "";
+    }
+
+    var email = document.forms["contact"]["email"].value;
+    if (email == null || email == "") {
+        document.getElementById("erroremail").innerHTML = "Please Enter Your Email Address!";
+    } else {
+        document.getElementById("erroremail").innerHTML = "";
+    }
+
+    var message = document.forms["contact"]["message"].value;
+    if (message == null || message == "") {
+        document.getElementById("errormessage").innerHTML = "Please Enter A Message!";
+    } else {
+        document.getElementById("errormessage").innerHTML = "";
+    }
+    return false;
+}
+
+
+
+
+
+
