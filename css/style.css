@@ -21,7 +21,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #bdbdbd;
+  color: #2a2a2a;
 }
 
 #toggle {
@@ -61,9 +61,9 @@ figure {
   margin: 0 5%;
 }
 
-/*.largenav {
+.largenav {
   visibility: hidden;
-}*/
+}
 
 
 @media screen and (min-width: 768px) {
