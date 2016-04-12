@@ -16,15 +16,12 @@ body {
 
 li {
   list-style-type: none;
+  color: #bdbdbd;
 }
 
 a {
   text-decoration: none;
   color: #bdbdbd;
-}
-
-a:active {
-  color: #2a2a2a;
 }
 
 #toggle {
@@ -39,10 +36,12 @@ a:active {
 #slidediv ul {
   background-color: #bdbdbd;
   text-align: center;
+  color: #2a2a2a;
 }
 
 #slidediv ul li {
   background-color: #bdbdbd;
+   color: #fff;
   text-align: center;
   margin-top: 2px;
   font-size: 2em;
@@ -62,9 +61,9 @@ figure {
   margin: 0 5%;
 }
 
-.largenav {
+/*.largenav {
   visibility: hidden;
-}
+}*/
 
 
 @media screen and (min-width: 768px) {
