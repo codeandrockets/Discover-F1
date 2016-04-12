@@ -1,0 +1,309 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	min-height: 100%;
+  overflow-x: hidden;
+
+}
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+
+a:active {
+  color: #2a2a2a;
+}
+
+#toggle {
+  max-width: 7%;
+  float: right;
+  margin: auto, 0;
+  position: absolute;
+  top: 4px;
+  right: 5px;
+}
+
+#slidediv ul {
+  background-color: #bdbdbd;
+  text-align: center;
+}
+
+#slidediv ul li {
+  background-color: #bdbdbd;
+  text-align: center;
+  margin-top: 2px;
+  font-size: 2em;
+  border-bottom: solid 1px;
+}
+
+
+h1 {
+  color: #bdbdbd;
+  margin: 0.5% 0 0 3%;
+  font-size: 2em;
+  width: 100%;
+}
+
+figure {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.largenav {
+  visibility: hidden;
+}
+
+
+@media screen and (min-width: 768px) {
+    #toggle {
+        visibility: hidden;
+    }
+    .largenav {
+         visibility: visible;
+  }
+    .largenav li {
+      display: inline-block;
+      font-size: 1.7em;
+      color: #bdbdbd;
+      padding-left: 5%;
+    }
+
+    .largenav ul {
+/*      float: right;
+      margin: -2.5%;*/
+      position: absolute;
+      top: 1%;
+      right: 1%;
+      width: 400px;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+}
+
+/*****************Home Page*************************************************/
+
+.bg1 
+{
+  background-image: url("../img/homebg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.bg2 
+{
+  background-image: url("../img/bg3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  }
+
+.bg3 
+{
+  background-image: url("../img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg4 
+{
+  background-image: url("../img/bg4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#nav {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	margin-top: 50%;
+	text-align: center;
+}
+
+#nav p{
+
+	display: inline-block;
+	font-size: 6em;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    #toggle {
+       display: none;
+    }
+    #nav {
+      margin-top: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+     #nav {
+      margin-top: 20%;
+  }
+  }  
+
+/********************Cars***************************/
+
+#car {
+  background-color: #2a2a2a;
+}
+
+#car img  {
+  display: block;
+  width: 90%;
+  margin: 2.5% 5%;
+}
+
+.caption {
+  margin: -2.5% 5% 5%;
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 1%;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    figure {
+        width: 46%;
+        margin: 1% 2% 1%;
+        display: inline;
+        float: left;
+
+      }
+
+    #car img  {
+     display: block;
+      width: 100%;
+      margin: 0;
+}
+
+    .caption {
+      margin: 0;
+      background-color: #d3d3d3;
+      text-align: center;
+      padding: 1%;
+      text-align: center;
+  }
+    #lastitem {
+      margin-bottom: 0;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+    figure {
+        width: 29.33%;
+        margin: 1% 2% 1%;
+        display: inline;
+        float: left;
+
+      }
+ }     
+
+/****************Drivers********************************/
+
+#driver {
+  background-color: #2a2a2a;
+}
+
+#driver img  {
+  display: block;
+  width: 90%;
+  margin: 2.5% 5%;
+}
+
+@media screen and (min-width: 768px) {
+    figure {
+        width: 46%;
+        margin: 1% 2% 1%;
+        display: inline;
+        float: left;
+
+      }
+
+    #driver img  {
+     display: block;
+      width: 100%;
+      margin: 0;
+}
+
+    .caption {
+      margin: 0;
+      background-color: #d3d3d3;
+      text-align: center;
+      padding: 1%;
+      text-align: center;
+  }
+    #lastitem {
+      margin-bottom: 0;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+    figure {
+        width: 29.33%;
+        margin: 1% 2% 1%;
+        display: inline;
+        float: left;
+
+      }
+ }  
+
+/*****************RACES******************************************/
+
+
+#race {
+  background-color: #2a2a2a;
+}
+
+
+#map_wrapper {
+    height: 100vh;
+    margin-top: 15px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/********************Contact***************************/
+
+#contactform {
+  width: 80%;
+  margin: 120px auto;
+  text-align: center;
+}
+
+#contactform input {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+#contactform textarea {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.formlabel {
+  margin-right: 80px; 
+}
+
