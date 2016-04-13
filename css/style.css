@@ -50,7 +50,7 @@ a {
 
 
 h1 {
-  color: #bdbdbd;
+  color: #fff;
   margin: 0.5% 0 0 3%;
   font-size: 2em;
   width: 100%;
@@ -140,6 +140,7 @@ figure {
 	display: inline-block;
 	font-size: 6em;
   width: 100%;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -325,4 +326,8 @@ figure {
 #button {
   width: 20%;
   margin: 0 auto;
+}
+
+.largenav a {
+  color: #fff;
 }
